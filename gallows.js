@@ -1,68 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>«ВИСЕЛИЦА»</title>
-</head>
-<body>
-    <canvas id="canvas" width="400" height="400"></canvas>
-    <script>
 let canvas=document.getElementById("canvas");
 let ctx=canvas.getContext("2d");
-
-// let drawMan=function(number)
-// {
-//     ctx.beginPath();
-//     if (number===1) {
-//         ctx.strokeRect(300,10,20,20);
-//     }
-//     else if (number===2) {
-//     ctx.strokeRect(300,10,20,20);
-//     ctx.moveTo(310,30);
-//     ctx.lineTo(310,90);
-//     }
-//     else if (number===3) {
-//     ctx.strokeRect(300,10,20,20);
-//     ctx.moveTo(310,30);
-//     ctx.lineTo(310,90);
-//     ctx.moveTo(310,50);
-//     ctx.lineTo(330,40);
-//     }
-//     else if (number===4) {
-//     ctx.strokeRect(300,10,20,20);
-//     ctx.moveTo(310,30);
-//     ctx.lineTo(310,90);
-//     ctx.moveTo(310,50);
-//     ctx.lineTo(330,40);
-//     ctx.moveTo(310,50);
-//     ctx.lineTo(290,40);
-//     }
-//     else if (number===5) {
-//         ctx.strokeRect(300,10,20,20);
-//     ctx.moveTo(310,30);
-//     ctx.lineTo(310,90);
-//     ctx.moveTo(310,50);
-//     ctx.lineTo(330,40);
-//     ctx.moveTo(310,50);
-//     ctx.lineTo(290,40);
-//     ctx.moveTo(310,90);
-//     ctx.lineTo(330,120);
-//     }
-//     else if (number===6) {
-//     ctx.strokeRect(300,10,20,20);
-//     ctx.moveTo(310,30);
-//     ctx.lineTo(310,90);
-//     ctx.moveTo(310,50);
-//     ctx.lineTo(330,40);
-//     ctx.moveTo(310,50);
-//     ctx.lineTo(290,40);
-//     ctx.moveTo(310,90);
-//     ctx.lineTo(330,120);
-//     ctx.moveTo(310,90);
-//     ctx.lineTo(290,120);
-//     }
-//     ctx.stroke();
-// }
 //---------------------functions-----------------------
 var pickWord = function () {
  // Возвращает случайно выбранное слово
@@ -166,7 +103,3 @@ showAnswerAndCongratulatePlayer(answerArray);}
 else{alert("Вы допустили 6 ошибок!");}
 }
 //---------------------game----------------------------
-    </script>
-
-</body>
-</html>
